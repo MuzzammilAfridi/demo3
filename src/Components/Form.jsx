@@ -43,7 +43,7 @@ const Form = () => {
   return (
 
     <div>
-      <Nabvar/>
+      
 
     <div className="max-w-md sm:min-w-[80vw] sm:bg-gray-200  flex flex-col items-center justify-center  mx-auto p-4 pt-6 pb-8 mb-4 mt-5  rounded shadow-md">
       

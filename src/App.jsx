@@ -7,22 +7,26 @@ import Hero from './Components/Hero'
 import Features from './Components/features'
 import Form from './Components/Form'
 import { Route, Routes } from 'react-router-dom'
+import Footer from './Components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    
-      // <Nabvar/>
-      // <Hero/>
-      // <Features/>
-      // <Form/>
+    <>
+      <Nabvar/>
+      {/* // <Hero/> */}
+      {/* // <Features/> */}
+      {/* // <Form/> */}
 
 
       <Routes>
     <Route path="/" element={<Hero />} />
     <Route path="/form" element={<Form />} />
 </Routes>
+
+<Footer/>
+</>
     
   )
 }
