@@ -6,9 +6,9 @@ import Nabvar from './Components/Nabvar'
 import Hero from './Components/Hero'
 import Features from './Components/features'
 import Form from './Components/Form'
-import { Route, Routes } from 'react-router-dom'
+// import { Route, Routes } from 'react-router-dom'
 import Footer from './Components/Footer'
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+// import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 function App() {
@@ -17,15 +17,15 @@ function App() {
   return (
     <>
       <Nabvar/>
-      {/* // <Hero/> */}
-      {/* // <Features/> */}
-      {/* // <Form/> */}
+      // <Hero/>
+      // <Features/>
+      // <Form/>
 
 
-      <Routes>
+      {/* <Routes>
     <Route path="/" element={<Hero />} />
     <Route path="/form" element={<Form />} />
-</Routes>
+</Routes> */}
 
 <Footer/>
 </>
